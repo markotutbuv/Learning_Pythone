@@ -2,13 +2,13 @@ print("Hello World")
 # copying examples from Lesson#1
 
 # showig how variables are shown in the program
-name = "John"
+#name = "John"
 age = 25
 height = 1.67
 is_student = True
 has_high_degree = None
 
-print(name)
+#print(name)
 print(age)
 print(height)
 print(is_student)
@@ -25,7 +25,7 @@ really long comment that helps understand code better
 """
 
 #Right way of naming variables
-name = "John"
+#name = "John"
 age = 25
 is_student = True
 
@@ -67,3 +67,35 @@ a, b, c, = 1, 2, 3
 
 print (x, y, z, end="\t")
 print (a, b, c, sep=":")
+
+#Formats
+
+name = "Alice"
+age = 30
+
+message = "My name is %s. I am %d years old." %(name, age)
+print(message)
+
+message = "My name is {}. I am {} years old." .format(name, age)
+print(message)
+
+message = f"My name is {name}. I am {age} years odl."
+print(message)
+
+
+name = "Alice"
+age = "30"
+message = "My name is " + name + ". I am "+ age + " years old."
+print(message)
+
+# error
+
+message = "My name is {name}. I am {age} years odl."
+print(message)
+
+# printing emojis
+
+print( "\N{slightly smiling face}")
+print("\u263A")
+print ("\U0001F600")
+
