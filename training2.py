@@ -151,3 +151,21 @@ building = (apartment// 20 + 1 )
 floor = ((apartment % 20) //4 + 1 )
 
 print(f" Your apartment is in {building} building and on the {floor} floor ")
+
+# last example
+
+croissants = int(input("Enter amount of Croissants "))
+cups = int(input("Enter amount of cups "))
+coffee = int(input("Enter amount of coffee "))
+
+croissants_price = 1.04
+cups_price = 0.34
+coffee_price = 4.42
+
+total_cost = (croissants * croissants_price) + (cups * cups_price) + (coffee_price * coffee)
+
+dollars = int(total_cost)
+cents = int(total_cost * 100)
+
+print(f"Total amount of {dollars} dollars and total amount of {cents} cents.")
+
