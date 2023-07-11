@@ -58,10 +58,10 @@ print(f"sum of equasion is {equasion}")
 # Distance - sqrt((x2-x1)^2 + (y2-y1)^2)
 from math import sqrt
 
-coordinate_x1 = float(input("Enter your first x cordinate  "))
-coordinate_x2 = float(input("Enter your second x cordinate "))
-coordinate_y1 = float(input("Enter your first y cordinate  "))
-coordinate_y2 = float(input("Enter your second y cordinate "))
+coordinate_x1 = float(input("Enter your first x coordinate  "))
+coordinate_x2 = float(input("Enter your second x coordinate "))
+coordinate_y1 = float(input("Enter your first y coordinate  "))
+coordinate_y2 = float(input("Enter your second y coordinate "))
 
 distance = round(sqrt((coordinate_x2 - coordinate_x1)**2 +\
                 (coordinate_y2 - coordinate_y1)**2 ),2)
